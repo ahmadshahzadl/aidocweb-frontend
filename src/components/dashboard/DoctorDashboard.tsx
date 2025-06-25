@@ -138,7 +138,7 @@ export const DoctorDashboard: React.FC<DoctorDashboardProps> = ({ onTabChange })
               <div className="flex items-center space-x-3">
                 <AlertCircle className="w-5 h-5 text-orange-500" />
                 <div>
-                  <p className="font-medium text-gray-900">John Smith</p>
+                  <p className="font-medium text-gray-900">John Doe</p>
                   <p className="text-sm text-gray-600">Requests medication adjustment</p>
                 </div>
               </div>

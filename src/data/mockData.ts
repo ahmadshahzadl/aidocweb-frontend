@@ -3,8 +3,8 @@ import { User, Appointment, Message, HealthMetric, Medication, Notification } fr
 export const users: User[] = [
   {
     id: '1',
-    name: 'Dr. Sarah Johnson',
-    email: 'sarah.johnson@hospital.com',
+    name: 'Dr. Doctor',
+    email: 'doctor@hospital.com',
     role: 'doctor',
     specialization: 'Cardiology',
     phone: '+1 (555) 123-4567',
@@ -12,8 +12,8 @@ export const users: User[] = [
   },
   {
     id: '2',
-    name: 'John Smith',
-    email: 'john.smith@email.com',
+    name: 'John Doe',
+    email: 'patient@email.com',
     role: 'patient',
     dateOfBirth: '1985-03-15',
     phone: '+1 (555) 987-6543',
@@ -54,7 +54,7 @@ export const messages: Message[] = [
     id: '1',
     senderId: '1',
     receiverId: '2',
-    senderName: 'Dr. Sarah Johnson',
+    senderName: 'Dr. Doctor',
     content: 'Hello John, I wanted to follow up on your recent test results. Everything looks good, but please continue taking your medication as prescribed.',
     timestamp: '2025-01-20T14:30:00Z',
     read: true
@@ -63,7 +63,7 @@ export const messages: Message[] = [
     id: '2',
     senderId: '2',
     receiverId: '1',
-    senderName: 'John Smith',
+    senderName: 'John Doe',
     content: 'Thank you doctor! I have a question about the dosage - should I take it with food?',
     timestamp: '2025-01-20T15:45:00Z',
     read: true
